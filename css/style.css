@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.admin-box {
+    background-color: aqua;
+    color: black;
+    width: 500px;
+    margin: 50px auto;
+    padding: 50px;
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+}
+form {
+    margin: 20px;
+}
+label {
+    display: block;
+    text-align: start;
+}
+input {
+    display: block;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+}
+input[type="submit"] {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+span {
+    border-bottom: 2px solid black;
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+}
+a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: end;
+}
+p {
+    margin-top: 20px;
+}
+p a {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
